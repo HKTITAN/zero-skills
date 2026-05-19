@@ -1,0 +1,10 @@
+{
+  "name": "zero-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Community pattern skills for the Zero programming language.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "eval-file-sum",
+  "title": "Sum integers from input file (eval)",
+  "difficulty": "medium",
+  "tags": ["stdin", "file", "eval"],
+  "prompt": "Read non-negative integers from the file whose path is the first command-line argument, one per line, until end of file. Sum them and print the total followed by a single newline. Blank lines should be ignored.",
+  "testCases": [
+    { "name": "three", "stdin": "1\n2\n3\n", "expectedStdout": "6\n" },
+    { "name": "empty", "stdin": "", "expectedStdout": "0\n" }
+  ]
+}

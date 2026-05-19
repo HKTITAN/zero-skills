@@ -1,0 +1,11 @@
+{
+  "id": "eval-cli-echo",
+  "title": "Echo first argument (eval)",
+  "difficulty": "trivial",
+  "tags": ["args", "io", "eval"],
+  "prompt": "Read the first command-line argument and print it to stdout, followed by a single newline. If no argument is provided, print 'missing' followed by a newline.",
+  "testCases": [
+    { "name": "hello", "args": ["hello"], "expectedStdout": "hello\n" },
+    { "name": "missing", "args": [], "expectedStdout": "missing\n" }
+  ]
+}
