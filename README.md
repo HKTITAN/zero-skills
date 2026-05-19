@@ -2,6 +2,10 @@
 
 A community cookbook of agent-facing pattern skills for [Zero](https://zerolang.ai).
 
+- **Language:** [zerolang.ai](https://zerolang.ai) · [Getting started](https://zerolang.ai/getting-started)
+- **Benchmark:** [HKTITAN/zero-agent-bench](https://github.com/HKTITAN/zero-agent-bench) · [Full results](https://github.com/HKTITAN/zero-agent-bench/blob/main/results/RESULTS.md)
+- **Upstream:** [vercel-labs/zero](https://github.com/vercel-labs/zero)
+
 The Zero compiler already ships eight language-feature skills (`zero`, `zero-language`, `zero-stdlib`, `zero-diagnostics`, `zero-builds`, `zero-packages`, `zero-testing`, `zero-agent`). Those describe the language itself.
 
 This repo ships **pattern skills** — concise, runnable recipes that teach agents how to *compose* Zero features into specific kinds of programs. Where the official skills answer "what is `raises` for", these answer "how do I write a CLI in Zero that reads args, transforms input, and exits with a useful code?"
